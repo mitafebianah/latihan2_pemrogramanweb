@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form action="proses.php" method="POST">
+            <fieldset style="background-color: yellow;">
+                <legend>Isian Biodata</legend>
+                <div>
+                    <label>Alamat Kirim</label>
+                    <div>
+                        <textarea name="alamat_kirim" rows="4" cols="30"></textarea>
+                    </div>
+                </div>
+                <div>
+                    <label>Buah Favorit</label>
+                    <div>
+                        <select name="buah">
+                            <option value="">--Pilih--</option>
+                            <option value="Jeruk">Jeruk</option>
+                            <option value="Mangga">Mangga</option>
+                            <option value="Pisang">Pisang</option>
+                        </select>
+                    </div>
+                </div>
+            </fieldset>
+            <div>
+                <input type="submit" value="Simpan" name="proses" />
+            </div>
+        </form>
+    </body>
+</html>

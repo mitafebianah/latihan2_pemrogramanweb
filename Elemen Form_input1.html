@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form action="proses.php" method="POST">
+            <fieldset style="background-color: yellow;">
+                <legend>Isian Biodata</legend>
+                <div>
+                    <label>Nama Lengkap</label>
+                    <div>
+                    <input type="text" name="nama" value="" size="30" />
+                    </div>
+                </div>
+                <div>
+                    <label>Jenis Kelamin</label>
+                    <div>
+                        <input type="radio" name="jk" value="L" checked />Laki-laki
+                        <input type="radio" name="jk" value="p" checked />Perempuan
+                    </div>
+                </div>
+            </fieldset>
+            <div>
+                <input type="submit" value="Simpan" name="proses" />
+            </div>
+        </form>
+    </body>
+</html>
